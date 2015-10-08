@@ -3,8 +3,8 @@ import java.awt.Color;
 
 public class PaintableStar extends SimpleStar implements Paintable{
 	
-		public PaintableStar(int[] xPoints, int[] yPoints, int nPoints, Color color){
-			super(xPoints, yPoints, nPoints, color);
+		public PaintableStar(Vertex pos, Color color){
+			super(pos, color);
 		}
 		
 		public void paintTo(java.awt.Graphics g){
