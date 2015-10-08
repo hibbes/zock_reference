@@ -1,7 +1,7 @@
 package name.czernohous.zock_2016;
 import javax.swing.*;
 import java.awt.Dimension;
-import name.czernohous.zock_2016.ShowInFrame;
+import name.czernohous.zock_2016.util.ShowInFrame;
 
 public class SizedPanel extends JPanel {
 

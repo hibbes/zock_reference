@@ -1,6 +1,6 @@
 package name.czernohous.zock_2016;
 import javax.swing.*;
-import name.czernohous.zock_2016.ShowInFrame;
+import name.czernohous.zock_2016.util.ShowInFrame;
 
 public class SimpleSizedPanel extends SizedPanel {
 	public void paintComponent(java.awt.Graphics g){
