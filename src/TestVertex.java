@@ -11,6 +11,7 @@ public class TestVertex {
 		
 		GeometricObject o1 = new GeometricObject(5);
 		System.out.println(o1);
+		System.out.println(o1);
 		   
 	}	   
 	
