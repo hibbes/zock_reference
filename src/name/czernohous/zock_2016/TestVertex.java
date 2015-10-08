@@ -1,4 +1,4 @@
-
+package name.czernohous.zock_2016;
 public class TestVertex {
 
 	public static void main(String[] args) {

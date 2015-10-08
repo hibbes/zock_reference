@@ -1,3 +1,4 @@
+package name.czernohous.zock_2016;
 
 public class EquilateralTriangle extends GeometricObject{
 

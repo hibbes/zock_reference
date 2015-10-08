@@ -1,3 +1,4 @@
+package name.czernohous.zock_2016;
 import javax.swing.*;
 
 public class FirstPanel extends JPanel {
