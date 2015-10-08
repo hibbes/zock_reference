@@ -1,7 +1,7 @@
 package name.czernohous.zock_2016;
 import java.awt.Color;
 
-import name.czernohous.zock_2016.ShowInFrame;
+import name.czernohous.zock_2016.util.ShowInFrame;
 import java.awt.Color;
 
 public class PaintablePanel extends SizedPanel{

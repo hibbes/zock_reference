@@ -1,4 +1,4 @@
-package name.czernohous.zock_2016;
+package name.czernohous.zock_2016.util;
 import javax.swing.*;
 public class ShowInFrame {
 
