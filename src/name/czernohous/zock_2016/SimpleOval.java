@@ -1,4 +1,5 @@
 
+package name.czernohous.zock_2016;
 public class SimpleOval extends GeometricObject {
 
 	public SimpleOval(double w, double h, Vertex pos){
