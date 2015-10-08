@@ -14,7 +14,7 @@ import javax.swing.JPanel;
 		}
 		
 		public static void main(String[]args){
-			PaintableImage pi= new PaintableImage("test.png"); // direkt ins bin-Verzeichnis
+			PaintableImage pi= new PaintableImage("test.png"); // Direkt ins bin-Verzeichnis
 			System.out.println(pi.mi.get().getHeight(pi));
 			ShowInFrame.show(new PaintablePanel(pi));
 		}
