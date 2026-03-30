@@ -25,7 +25,7 @@ public class SimpleStar extends GeometricObject {
 	
 	
 /*
- *  Das könnte kompliziert werden!	
+ *  Das kÃ¶nnte kompliziert werden!
 	public @Override String toString(){
 		return "SimpleOval("+super.toString()+")";
 	}
