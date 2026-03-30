@@ -40,8 +40,8 @@ public Vertex add(Vertex v){
 
 
 public void addMod(double x, double y){
-	x=this.x+x;
-	y=this.y+y;
+	this.x=this.x+x;
+	this.y=this.y+y;
 }
 
 public void addMod(double s){
