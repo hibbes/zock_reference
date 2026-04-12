@@ -1,5 +1,12 @@
 package homo.ludens;
 import java.awt.Color;
+
+/**
+ * Kleine {@code main}-Methode, um {@link GeometricObject} per Hand zu
+ * erproben: Konstruktor-Überladungen, {@code equals}, {@code moveTo}
+ * und {@code contains}. Kein echtes Unit-Testing-Framework — aber
+ * didaktisch ein wichtiger Einstieg in "Ich probiere meinen Code aus".
+ */
 public class TestGeometricObject {
 
 	public static void main(String[] args) {

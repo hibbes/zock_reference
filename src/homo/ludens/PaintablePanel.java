@@ -2,13 +2,17 @@ package homo.ludens;
 import java.awt.Color;
 
 import homo.ludens.util.ShowInFrame;
-import java.awt.Color;
 
+/**
+ * Ein Panel, das <em>genau ein</em> {@link Paintable} anzeigt. Die
+ * einfachste Form von "Composite": das Panel kennt ein Kind und
+ * delegiert das Zeichnen.
+ */
 public class PaintablePanel extends SizedPanel{
 
 	Paintable pa;
 	public PaintablePanel(Paintable pa){this.pa=pa;}
-	
+
 	public void paintComponent(java.awt.Graphics g){
 		pa.paintTo(g);
 	}
@@ -16,8 +20,8 @@ public class PaintablePanel extends SizedPanel{
 			ShowInFrame.show (new PaintablePanel(new PaintableOval(100,50,30,50,new Color(23,23,23))));
 			ShowInFrame.show (new PaintablePanel(new PaintableOval(10,10,130,40,new Color(59,34,65))));
 			ShowInFrame.show (new PaintablePanel(new PaintableStar(new Vertex(50,50), new Color(59,34,65))));
-			
+
 		}
 	}
-	
+
 

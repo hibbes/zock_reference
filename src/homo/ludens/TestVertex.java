@@ -1,4 +1,10 @@
 package homo.ludens;
+
+/**
+ * Kleiner Handlauf-Test für {@link Vertex}. Zeigt u.&nbsp;a. den
+ * Unterschied zwischen dem immutable {@code add(Vertex)} und dem
+ * in-place wirkenden {@code skalarMultMod(double)}.
+ */
 public class TestVertex {
 
 	public static void main(String[] args) {
@@ -9,13 +15,13 @@ public class TestVertex {
 		   v2.normalize();
 		   System.out.println(v2.toString());
 		   System.out.println(v1.length()); */
-		
+
 		System.out.println(v1);
 		Vertex v3 = v1.add(v1);
 		v1.skalarMultMod(4);
 		System.out.println(v1);
-		
-		   
-	}	   
-	
+
+
+	}
+
 }
